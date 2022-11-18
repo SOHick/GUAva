@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Convector/Convector.iml" filepath="$PROJECT_DIR$/Convector/Convector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUAva.iml" filepath="$PROJECT_DIR$/GUAva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graphics/Graphics.iml" filepath="$PROJECT_DIR$/Graphics/Graphics.iml" />
+    </modules>
+  </component>
+</project>

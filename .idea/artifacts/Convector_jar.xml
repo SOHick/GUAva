@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Convector:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Convector_jar</output-path>
+    <root id="archive" name="Convector.jar">
+      <element id="module-output" name="Convector" />
+    </root>
+  </artifact>
+</component>
