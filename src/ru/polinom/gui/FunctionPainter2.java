@@ -15,12 +15,9 @@ public class FunctionPainter2 implements Painter
     private Function f;
     private int  yCenter;
     private int width,height;
-    public  FunctionPainter2(Convector a,Color color,Function function)
+    public  FunctionPainter2(Convector a)
     {
-        this.f = function;
         this.a = a;
-        this.colorDerivative = color;
-
     }
     @Override
     public void paint(Graphics g, int Wight, int Height)

@@ -303,25 +303,6 @@ public class MainGraphics extends JFrame
             a.SetYEdges((Double) js2.getValue(),(Double) js4.getValue());
             mainPanel.repaint();
         });
-        MoveSpinner asd = new MoveSpinner(a);
-//        mainPanel.addMouseWheelListener(new MouseAdapter() {
-//            @Override
-//            public void mouseWheelMoved(MouseWheelEvent e) {
-//                // прокрутка вверх
-//                if(e.getWheelRotation() < 0)
-//                {
-//                     double k = asd.MoveX((double)js1.getValue());
-//                    double l = asd.MoveY((double)js2.getValue());
-////                    (Double)nmxMax.getNumber() = asd.SetYEdges((double) js1.getValue());
-//                    System.out.println(k);
-//                    k = (Double)nmxMin.getNumber();
-//                    a
-//
-//                }
-//                mainPanel.repaint();
-//
-//            }
-//        });
         // раскладка для controlPanel
         GroupLayout gl1 = new GroupLayout(controlPanel);
         controlPanel.setLayout(gl1);
