@@ -10,7 +10,7 @@ public class FunctionPainter2 implements Painter
     public double xMin,xMax,yMax,yMin;
     Color colorDerivative;
     public boolean stateDerivative;
-    double scala = Math.pow(100,1);
+    double scala = Math.pow(1000,1);
     private final Convector a;
     private Function f;
     private int  yCenter;
@@ -46,12 +46,12 @@ public class FunctionPainter2 implements Painter
     {
 
         g.setColor(colorDerivative);
-        for (double j = xMin; j < xMax; j+=0.01)
+        for (double j = xMin; j < xMax; j+=0.001)
         {
             double x = Math.round(j * scala) / scala;
             double y = Math.round(f.invoke(x) * scala)/scala;
-            double next = Math.round(f.invoke(x+0.01) * scala)/scala;
-            g.drawLine(a.xCrt2Scr(x),a.yCrt2Scr(y),a.xCrt2Scr(x+0.01),a.yCrt2Scr(next));
+            double next = Math.round(f.invoke(x+0.001) * scala)/scala;
+            g.drawLine(a.xCrt2Scr(x),a.yCrt2Scr(y),a.xCrt2Scr(x+0.001),a.yCrt2Scr(next));
         }
     }
     public void setColor2(Color color) {
